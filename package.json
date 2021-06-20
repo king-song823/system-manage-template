@@ -11,10 +11,12 @@
         "axios": "^0.21.1",
         "core-js": "~3.9.1",
         "element-plus": "1.0.2-beta.33",
+        "postcss": "^8.3.5",
         "vue": "~3.0.7",
         "vue-cropperjs": "^5.0.0",
         "vue-i18n": "^9.0.0",
         "vue-loader-v16": "^16.0.0-beta.5.4",
+        "vue-particles": "^1.0.9",
         "vue-router": "~4.0.4",
         "vue-schart": "^2.0.0",
         "vuex": "~4.0.0"
@@ -29,7 +31,7 @@
         "babel-eslint": "~10.1.0",
         "eslint": "~6.8.0",
         "eslint-plugin-vue": "~7.7.0",
-        "sass": "~1.32.8",
+        "sass": "^1.35.1",
         "sass-loader": "~8.0.2",
         "vue-cli-plugin-element-plus": "0.0.13",
         "webpack": "4.44.2"

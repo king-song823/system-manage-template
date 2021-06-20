@@ -1,4 +1,4 @@
-# vue-manage-system
+# system-manage-template
 
 <a href="https://github.com/vuejs/vue">
     <img src="https://img.shields.io/badge/vue-2.6.10-brightgreen.svg" alt="vue">
@@ -6,11 +6,11 @@
   <a href="https://github.com/ElemeFE/element">
     <img src="https://img.shields.io/badge/element--ui-2.8.2-brightgreen.svg" alt="element-ui">
   </a>
-  <a href="https://github.com/lin-xin/vue-manage-system/blob/master/LICENSE">
+  <a href="https://github.com/lin-xin/system-manage-template/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>
-  <a href="https://github.com/lin-xin/vue-manage-system/releases">
-    <img src="https://img.shields.io/github/release/lin-xin/vue-manage-system.svg" alt="GitHub release">
+  <a href="https://github.com/lin-xin/system-manage-template/releases">
+    <img src="https://img.shields.io/github/release/lin-xin/system-manage-template.svg" alt="GitHub release">
   </a>
   <a href="https://lin-xin.gitee.io/example/work/#/donate">
     <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
@@ -63,8 +63,8 @@
 ## 安装步骤
 
 ```
-git clone https://github.com/lin-xin/vue-manage-system.git      // 把模板下载到本地
-cd vue-manage-system    // 进入模板目录
+git clone https://github.com/lin-xin/system-manage-template.git      // 把模板下载到本地
+cd system-manage-template    // 进入模板目录
 npm install         // 安装项目依赖，等待安装完成之后，安装失败可用 cnpm 或 yarn
 
 // 开启服务器，浏览器访问 http://localhost:8080
@@ -132,4 +132,4 @@ vue.js 封装 sChart.js 的图表组件。访问地址：[vue-schart](https://gi
 
 ## License
 
-[MIT](https://github.com/lin-xin/vue-manage-system/blob/master/LICENSE)
+[MIT](https://github.com/lin-xin/system-manage-template/blob/master/LICENSE)
