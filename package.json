@@ -1,6 +1,6 @@
 {
     "name": "vue-manage-system",
-    "version": "5.0.0",
+    "version": "1.0.0",
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
@@ -12,6 +12,7 @@
         "core-js": "~3.9.1",
         "element-plus": "1.0.2-beta.33",
         "postcss": "^8.3.5",
+        "precss": "^4.0.0",
         "vue": "~3.0.7",
         "vue-cropperjs": "^5.0.0",
         "vue-i18n": "^9.0.0",
@@ -35,6 +36,12 @@
         "sass-loader": "~8.0.2",
         "vue-cli-plugin-element-plus": "0.0.13",
         "webpack": "4.44.2"
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {},
+            "precss": {}
+        }
     },
     "eslintConfig": {
         "root": true,

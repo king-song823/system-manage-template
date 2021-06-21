@@ -73,43 +73,48 @@ export default {
 };
 </script>
 
-<style lang="sass">
-.login-wrap 
-  position: relative
-  width: 100%
-  height: 100%
-  background: url(../assets/img/17.jpg) center center no-repeat
-  background-size: cover
-  .login-content 
-    position: absolute
-    left: 50%
-    top: 50%
-    width: 350px
-    margin: -175px 20%
-    border-radius: 5px
-    background: rgba(255, 255, 255, 0.3)
-    overflow: hidden
-    border: 1px solid rgba(255, 255, 255, 0.3)
-    &:hover
-        border: 1px solid black
-    .login-title 
-      width: 100%
-      line-height: 50px
-      text-align: center
-      font-size: 20px
-      color: #fff
-      text-align: left
-      padding: 0 30px
-      border-bottom: 1px solid black
-    .main-content 
-      padding: 30px 30px
-      .el-input-group__prepend 
-        background-color: rgba(28, 31, 32, 0.1)
-      .el-input__inner
-        background-color: rgba(28, 31, 32, 0.1)
-      .login-btn 
-        button 
-          width: 100%
-          height: 36px
-          margin-bottom: 10px
+<style lang="postcss">
+.login-wrap{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../assets/img/17.jpg) center center no-repeat;
+  background-size: cover;
+  .login-content{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    border-radius: 5px;
+    margin: -175px 0;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(48, 52, 54, .1) !important;
+    min-width: 350px;
+      &:hover {
+        border: 1px solid rgba(48, 52, 54, .9) !important;
+      }
+    .login-title{
+      line-height: 50px !important;
+      font-size: 20px;
+      color: #fff;
+      text-align: left;
+      padding: 0 30px;
+      border-bottom: 1px solid #eee;
+    }
+    .main-content{
+      padding: 30px;
+      .el-input-group__prepend, .el-input__inner{
+        background-color: rgba(28, 31, 32, 0.1);
+      }
+      .login-btn {
+        button {
+          width: 100%;
+          height: 36px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  
+}
 </style>
+
