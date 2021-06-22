@@ -4,7 +4,7 @@
             <el-col :span="8">
                 <el-card shadow="hover" class="mgb20" style="height:252px;">
                     <div class="user-info">
-                        <img src="../assets/img/img.jpg" class="user-avator" alt />
+                        <img src="../assets/img/profile.png" class="user-avator" alt />
                         <div class="user-info-cont">
                             <div class="user-info-name">{{ name }}</div>
                             <div>{{ role }}</div>
@@ -12,11 +12,11 @@
                     </div>
                     <div class="user-info-list">
                         上次登录时间：
-                        <span>2019-11-01</span>
+                        <span>2021-10-01</span>
                     </div>
                     <div class="user-info-list">
                         上次登录地点：
-                        <span>东莞</span>
+                        <span>杭州</span>
                     </div>
                 </el-card>
                 <el-card shadow="hover" style="height:252px;">
@@ -26,10 +26,10 @@
                         </div>
                     </template>
                     Vue
-                    <el-progress :percentage="71.3" color="#42b983"></el-progress>JavaScript
-                    <el-progress :percentage="24.1" color="#f1e05a"></el-progress>CSS
-                    <el-progress :percentage="13.7"></el-progress>HTML
-                    <el-progress :percentage="5.9" color="#f56c6c"></el-progress>
+                    <el-progress :percentage="80" color="#42b983"></el-progress>JavaScript
+                    <el-progress :percentage="10" color="#f1e05a"></el-progress>CSS
+                    <el-progress :percentage="5"></el-progress>HTML
+                    <el-progress :percentage="5" color="#f56c6c"></el-progress>
                 </el-card>
             </el-col>
             <el-col :span="16">
@@ -39,7 +39,7 @@
                             <div class="grid-content grid-con-1">
                                 <i class="el-icon-user-solid grid-con-icon"></i>
                                 <div class="grid-cont-right">
-                                    <div class="grid-num">1234</div>
+                                    <div class="grid-num">10w</div>
                                     <div>用户访问量</div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                             <div class="grid-content grid-con-2">
                                 <i class="el-icon-message-solid grid-con-icon"></i>
                                 <div class="grid-cont-right">
-                                    <div class="grid-num">321</div>
+                                    <div class="grid-num">8000</div>
                                     <div>系统消息</div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@
                             <div class="grid-content grid-con-3">
                                 <i class="el-icon-s-goods grid-con-icon"></i>
                                 <div class="grid-cont-right">
-                                    <div class="grid-num">5000</div>
+                                    <div class="grid-num">8w</div>
                                     <div>数量</div>
                                 </div>
                             </div>
@@ -72,7 +72,7 @@
                     <template #header>
                         <div class="clearfix">
                             <span>待办事项</span>
-                            <el-button style="float: right; padding: 3px 0" type="text">添加</el-button>
+                            <!-- <el-button style="float: right; padding: 3px 0" type="text">添加</el-button> -->
                         </div>
                     </template>
 
@@ -126,29 +126,29 @@ export default {
             name: localStorage.getItem("ms_username"),
             todoList: [
                 {
-                    title: "今天要修复100个bug",
+                    title: "今天要喝10吨水",
                     status: false
                 },
                 {
-                    title: "今天要修复100个bug",
+                    title: "今天要喝10吨水",
                     status: false
                 },
                 {
-                    title: "今天要写100行代码加几个bug吧",
+                    title: "今天要喝10吨水",
                     status: false
                 },
                 {
-                    title: "今天要修复100个bug",
+                    title: "我要打10个",
                     status: false
                 },
                 {
-                    title: "今天要修复100个bug",
-                    status: true
+                    title: "今天要喝10吨水",
+                    status: false
                 },
                 {
-                    title: "今天要写100行代码加几个bug吧",
-                    status: true
-                }
+                    title: "今天要喝10吨水",
+                    status: false
+                },
             ],
             data: [
                 {
@@ -183,21 +183,21 @@ export default {
             options: {
                 type: "bar",
                 title: {
-                    text: "最近一周各品类销售图"
+                    text: "最近一周粉丝活跃度"
                 },
                 xRorate: 25,
                 labels: ["周一", "周二", "周三", "周四", "周五"],
                 datasets: [
                     {
-                        label: "家电",
+                        label: "铁粉",
                         data: [234, 278, 270, 190, 230]
                     },
                     {
-                        label: "百货",
+                        label: "老粉",
                         data: [164, 178, 190, 135, 160]
                     },
                     {
-                        label: "食品",
+                        label: "新粉",
                         data: [144, 198, 150, 235, 120]
                     }
                 ]
@@ -205,20 +205,20 @@ export default {
             options2: {
                 type: "line",
                 title: {
-                    text: "最近几个月各品类销售趋势图"
+                    text: "最近几个月投币趋势"
                 },
                 labels: ["6月", "7月", "8月", "9月", "10月"],
                 datasets: [
                     {
-                        label: "家电",
+                        label: "白嫖",
                         data: [234, 278, 270, 190, 230]
                     },
                     {
-                        label: "百货",
+                        label: "点赞",
                         data: [164, 178, 150, 135, 160]
                     },
                     {
-                        label: "食品",
+                        label: "一键三连",
                         data: [74, 118, 200, 235, 90]
                     }
                 ]

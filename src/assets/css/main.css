@@ -32,6 +32,13 @@ a {
     transition: left .3s ease-in-out;
     background: #f0f0f0;
 }
+.content-box .tags{
+    background-color: rgb(19, 21, 22);
+    margin: 10px 10px 0 10px;
+}
+.content-box .tags-close-box{
+    right: -4px;
+}
 
 .content {
     width: auto;
@@ -174,4 +181,13 @@ a {
 
 .v-note-wrapper .v-note-panel {
     min-height: 500px;
+}
+.el-menu{
+    background: rgb(19, 21, 22) !important;
+}
+.el-menu li{
+    background: rgb(19, 21, 22) !important;
+}
+.el-menu li .el-submenu__title{
+    background: rgb(19, 21, 22) !important;
 }

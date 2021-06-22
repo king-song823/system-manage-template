@@ -62,7 +62,7 @@ export default {
         if (valid) {
           this.$message.success("登录成功");
           localStorage.setItem("ms_username", this.param.username);
-        //   this.$router.push("/");
+          this.$router.push("/");
         } else {
           this.$message.error("请输入账号和密码");
           return false;
@@ -78,7 +78,7 @@ export default {
   position: relative;
   width: 100%;
   height: 100%;
-  background: url(../assets/img/17.jpg) center center no-repeat;
+  background: url(../assets/img/login-bg.jpg) center center no-repeat;
   background-size: cover;
   .login-content{
     position: absolute;
