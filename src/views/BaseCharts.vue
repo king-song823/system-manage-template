@@ -12,7 +12,7 @@
                 vue-schart：vue.js封装sChart.js的图表组件。
                 访问地址：
                 <a
-                    href="https://github.com/lin-xin/vue-schart"
+                    href="https://github.com/ink-song/vue-schart"
                     target="_blank"
                 >vue-schart</a>
             </div>
