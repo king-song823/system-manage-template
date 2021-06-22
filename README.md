@@ -59,14 +59,22 @@
 
 ## 安装步骤
 
+#### 下载项目
 ```
-git clone https://github.com/ink-song/system-manage-template.git      // 把模板下载到本地
-cd system-manage-template    // 进入模板目录
-yarn         // 安装项目依赖，等待安装完成之后，安装失败可用 cnpm 或 yarn
-
-// 开启服务器，浏览器访问 http://localhost:8080
-yarn serve
-
-// 执行构建命令，生成的dist文件夹放在服务器下即可访问
-yarn build
+git clone https://github.com/ink-song/system-manage-template.git      把模板下载到本地
 ```
+
+#### 安装依赖
+```
+cd system-manage-template    进入模板目录
+yarn         安装项目依赖，等待安装完成之后，安装失败可用 cnpm 或 npm
+```
+
+#### 访问和部署
+
+```
+yarn serve  开启服务器，浏览器访问 http://localhost:8080
+
+yarn build 执行构建命令，生成的dist文件夹放在服务器下即可访问
+```
+
