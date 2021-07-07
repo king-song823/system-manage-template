@@ -140,6 +140,7 @@ export default {
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
+    background: rgb(19, 21, 22);
 }
 
 .tags-li:not(.active):hover {
