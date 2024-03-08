@@ -24,7 +24,7 @@
 
 ### 首页
 
-![Image text](./screenshots/wms1.png)
+![Image text](./screenshots/wms1.jpg)
 
 ## 赞赏
 

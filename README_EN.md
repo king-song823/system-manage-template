@@ -125,11 +125,11 @@ A desktop component library based on vue.js2.0 . Github : [element](http://eleme
 
 ### Default theme
 
-![Image text](https://github.com/ink-song/manage-system/raw/master/screenshots/wms1.png)
+![Image text](https://github.com/ink-song/manage-system/raw/master/screenshots/wms1.jpg)
 
 ### Login
 
-![Image text](https://github.com/ink-song/manage-system/raw/master/screenshots/wms3.png)
+![Image text](https://github.com/ink-song/manage-system/raw/master/screenshots/wms3.jpg)
 
 ## License
 

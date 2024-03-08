@@ -5,7 +5,7 @@
       <i v-if="!collapse" class="el-icon-s-fold"></i>
       <i v-else class="el-icon-s-unfold"></i>
     </div>
-    <div class="logo">多功能WEB系统</div>
+    <div class="logo">多功能Web后台系统</div>
     <div class="header-right">
       <div class="header-user-con">
         <!-- 消息中心 -->
@@ -148,7 +148,7 @@ export default {
   margin-left: 10px;
 }
 .user-avator {
-  margin-left: 20px;
+  margin: 0 5px;
 }
 .user-avator img {
   display: block;

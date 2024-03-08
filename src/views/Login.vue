@@ -1,7 +1,7 @@
 <template>
   <div class="login-wrap">
     <div class="login-content">
-      <div class="login-title">不高兴就喝水</div>
+      <div class="login-title">欢迎登录</div>
       <el-form
         :model="param"
         :rules="rules"
@@ -12,7 +12,7 @@
         <el-form-item prop="username">
           <el-input v-model="param.username" placeholder="username">
             <template #prepend>
-              <el-button icon="el-icon-user"></el-button>
+              <el-button icon="el-icon-user" style="color: #fff"></el-button>
             </template>
           </el-input>
         </el-form-item>
@@ -24,7 +24,7 @@
             @keyup.enter="submitForm()"
           >
             <template #prepend>
-              <el-button icon="el-icon-lock"></el-button>
+              <el-button icon="el-icon-lock" style="color: #fff"></el-button>
             </template>
           </el-input>
         </el-form-item>
@@ -43,14 +43,14 @@ export default {
     return {
       param: {
         username: "admin",
-        password: "123123"
+        password: "123123",
       },
       rules: {
         username: [
-          { required: true, message: "请输入用户名", trigger: "blur" }
+          { required: true, message: "请输入用户名", trigger: "blur" },
         ],
-        password: [{ required: true, message: "请输入密码", trigger: "blur" }]
-      }
+        password: [{ required: true, message: "请输入密码", trigger: "blur" }],
+      },
     };
   },
   created() {
@@ -58,7 +58,7 @@ export default {
   },
   methods: {
     submitForm() {
-      this.$refs.login.validate(valid => {
+      this.$refs.login.validate((valid) => {
         if (valid) {
           this.$message.success("登录成功");
           localStorage.setItem("ms_username", this.param.username);
@@ -68,31 +68,31 @@ export default {
           return false;
         }
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style lang="postcss">
-.login-wrap{
+.login-wrap {
   position: relative;
   width: 100%;
   height: 100%;
   background: url(../assets/img/login-bg.jpg) center center no-repeat;
   background-size: cover;
-  .login-content{
+  .login-content {
     position: absolute;
     right: 10%;
     top: 50%;
     border-radius: 5px;
     margin: -175px 0;
     background: rgba(255, 255, 255, 0.3);
-    border: 1px solid rgba(48, 52, 54, .1) !important;
+    border: 1px solid rgba(48, 52, 54, 0.1) !important;
     min-width: 350px;
-      &:hover {
-        border: 1px solid rgba(48, 52, 54, .9) !important;
-      }
-    .login-title{
+    &:hover {
+      border: 1px solid rgba(48, 52, 54, 0.9) !important;
+    }
+    .login-title {
       line-height: 50px !important;
       font-size: 20px;
       color: #fff;
@@ -100,10 +100,12 @@ export default {
       padding: 0 30px;
       border-bottom: 1px solid #eee;
     }
-    .main-content{
+    .main-content {
       padding: 30px;
-      .el-input-group__prepend, .el-input__inner{
+      .el-input-group__prepend,
+      .el-input__inner {
         background-color: rgba(28, 31, 32, 0.1);
+        color: rgba(365, 365, 365, 0.85);
       }
       .login-btn {
         button {
@@ -114,7 +116,5 @@ export default {
       }
     }
   }
-  
 }
 </style>
-

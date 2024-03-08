@@ -40,7 +40,7 @@ export default {
     },
     showTags() {
       return this.tagsList.length > 0;
-    }
+    },
   },
   methods: {
     isActive(path) {
@@ -66,14 +66,14 @@ export default {
     },
     // 关闭其他标签
     closeOther() {
-      const curItem = this.tagsList.filter(item => {
+      const curItem = this.tagsList.filter((item) => {
         return item.path === this.$route.fullPath;
       });
       this.$store.commit("closeTagsOther", curItem);
     },
     // 设置标签
     setTags(route) {
-      const isExist = this.tagsList.some(item => {
+      const isExist = this.tagsList.some((item) => {
         return item.path === route.fullPath;
       });
       if (!isExist) {
@@ -83,18 +83,18 @@ export default {
         this.$store.commit("setTagsItem", {
           name: route.name,
           title: route.meta.title,
-          path: route.fullPath
+          path: route.fullPath,
         });
       }
     },
     handleTags(command) {
       command === "other" ? this.closeOther() : this.closeAll();
-    }
+    },
   },
   watch: {
     $route(newValue) {
       this.setTags(newValue);
-    }
+    },
   },
   created() {
     this.setTags(this.$route);
@@ -103,7 +103,7 @@ export default {
     //     $router: this.$router,
     //     $route: this.$route
     // });
-  }
+  },
 };
 </script>
 
@@ -150,6 +150,7 @@ export default {
 
 .tags-li.active {
   color: #fff;
+  background: grey;
 }
 
 .tags-li-title {
@@ -180,7 +181,7 @@ export default {
   z-index: 10;
 }
 .tags-close-box .el-button {
-  background: rgb(19, 21, 22) !important;
-  border: 1px solid rgb(19, 21, 22) !important;
+  background: grey !important;
+  border: 1px solid grey !important;
 }
 </style>

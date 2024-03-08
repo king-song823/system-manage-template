@@ -33,8 +33,8 @@ a {
     background: #f0f0f0;
 }
 .content-box .tags{
-    background-color: rgb(19, 21, 22);
-    margin: 10px 10px 0 10px;
+    background-color: #fff;
+    margin: 10px;
 }
 .content-box .tags-close-box{
     right: -4px;
