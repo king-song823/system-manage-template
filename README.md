@@ -20,7 +20,7 @@
 
 ### 登录
 
-![Image text](./screenshots/wms3.png)
+![Image text](./screenshots/wms3.jpg)
 
 ### 首页
 
