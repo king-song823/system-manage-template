@@ -5,7 +5,7 @@
       <i v-if="!collapse" class="el-icon-s-fold"></i>
       <i v-else class="el-icon-s-unfold"></i>
     </div>
-    <div class="logo">拿来吧，你！</div>
+    <div class="logo">多功能WEB系统</div>
     <div class="header-right">
       <div class="header-user-con">
         <!-- 消息中心 -->
@@ -55,7 +55,7 @@ export default {
     return {
       fullscreen: false,
       name: "linxin",
-      message: 2
+      message: 2,
     };
   },
   computed: {
@@ -65,7 +65,7 @@ export default {
     },
     collapse() {
       return this.$store.state.collapse;
-    }
+    },
   },
   methods: {
     // 用户名下拉菜单选择事件
@@ -78,24 +78,24 @@ export default {
     // 侧边栏折叠
     collapseChage() {
       this.$store.commit("hadndleCollapse", !this.collapse);
-    }
+    },
   },
   mounted() {
     if (document.body.clientWidth < 1500) {
       this.collapseChage();
     }
-  }
+  },
 };
 </script>
 <style scoped>
 .header {
-    position: relative;
-    box-sizing: border-box;
-    width: 100%;
-    height: 70px;
-    font-size: 22px;
-    color: #fff;
-    background: rgb(19, 21, 22);
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 70px;
+  font-size: 22px;
+  color: #fff;
+  background: rgb(19, 21, 22);
 }
 .collapse-btn {
   float: left;

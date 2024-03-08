@@ -49,7 +49,7 @@ The scheme as a set of multi-function background frame templates, suitable for m
 
 ## Installation steps
 
-    git clone https://github.com/ink-song/system-manage-template.git		// Clone templates
+    git clone https://github.com/king-song823/system-manage-template.git		// Clone templates
     cd system-manage-template											// Enter template directory
     npm install													// Installation dependency
 

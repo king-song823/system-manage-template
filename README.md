@@ -30,7 +30,7 @@
 
 请作者喝杯咖啡吧！(微信公众号)
 
-![微信扫一扫](./src/assets/img/about-me.jpg)
+![微信扫一扫](./src/assets/img/about-me.pic.jpg)
 
 ## 前言
 
@@ -61,7 +61,7 @@
 
 #### 下载项目
 ```
-git clone https://github.com/ink-song/system-manage-template.git      把模板下载到本地
+git clone https://github.com/king-song823/system-manage-template.git      把模板下载到本地
 ```
 
 #### 安装依赖
